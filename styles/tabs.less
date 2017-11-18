@@ -29,23 +29,23 @@
       border-color: @text-color;
     }
     &.modified:hover .close-icon {
-      color: currentColor;
+      color: @medium-blue;
     }
 
 
     // Close Icon (the X) -------------------
     .close-icon:hover {
-      color: @text-color-selected;
+      color: @medium-blue;
     }
     &.active .close-icon:hover {
-      color: @text-color;
+      color: @bright-green;
     }
 
 
     // Dragging -------------------
     // Styles get applied while dragging a tab
     &.is-dragging {
-      background: darken(@tab-background-color, 10%);
+      background: darken(@tab-background-color, 15%);
       border-color: transparent;
       opacity: .5;
       & .close-icon {
